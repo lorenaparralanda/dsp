@@ -9,7 +9,22 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > See table below:
+
+| Command | Description |
+| --------| ------------- |
+pwd | print working directory
+touch | create file
+rm -r | remove directory and all of its children
+> | redirect to a file (gets rid of text)
+>> | appends (keeps original text)
+cat | outputs contents of file 
+\| | pipes a command
+grep | global regular expression print (looks for a pattern)
+sed | stream editor
+man | helps you out!
+env | returns a list of the environment variables
+
 
 ---
 
@@ -24,7 +39,18 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > See table below:
+
+| Command | Description |
+| --------| ------------- |
+ls | lists files in directory
+ls -a | lists all hidden and un-hidden files in directory 
+ls -l | lists files in long formal listing
+ls -lh | list files in human readable format
+ls -lah | lists all hidden and un-hidden files in human readable format
+ls -t | lists files and sorts them by modification time (newest first)
+ls -Glp | in long listing, list does not include long list names, but indicates directories
+
 
 ---
 
@@ -32,7 +58,15 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > See table below:
+
+| Command | Description |
+| --------| ------------- |
+ls -d | displays only directories
+ls -F | flags filenames
+ls -r | displays files in reverse order
+ls -R | displays subdirectories as well
+ls -u | displays files by the file access time
 
 ---
 
@@ -40,7 +74,13 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `xargs` builds and executes command lines from standard input. For example, below, multiline output is converted into a single line.
+
+```
+devuser@system:/etc find . -name "*bash*" | xargs
+./bash.bashrc ./bash.bash_logout ./defaults/etc/bash.bashrc ./defaults/etc/bash.bash_logout ./defaults/etc/skel/.bashrc ./defaults/etc/skel/.bash_profile ./postinstall/bash.sh.done ./setup/bash.lst.gz ./skel/.bashrc ./skel/.bash_profile
+```
+
 
  
 
