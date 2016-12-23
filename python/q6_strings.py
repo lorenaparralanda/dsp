@@ -8,7 +8,8 @@ def donuts(count):
     else:
         print "Number of donuts: 4"       
         
-        
+     
+
 def both_ends(s):
     word = list(s)
     new_string = []
@@ -22,6 +23,7 @@ def both_ends(s):
         return "''"
 
 
+    
 def fix_start(s):
     word = list(s)
     new_word = []
@@ -33,6 +35,7 @@ def fix_start(s):
             new_word.append('*')
     new_word.pop(1)
     return ''.join(new_word)
+
 
 
 def mix_up(a, b):
@@ -47,6 +50,7 @@ def mix_up(a, b):
     print ''.join(list_a[0]) + ''.join(list_a[1]) + " " + ''.join(list_b[0]) + ''.join(list_b[1])
 
     
+    
 def verbing(s):
     word = list(s)
     if len(word) >= 3:
@@ -59,6 +63,8 @@ def verbing(s):
     else:
         return s
 
+    
+    
 def not_bad(s):
     sentence = s.split()
     not_place = -1
@@ -76,6 +82,7 @@ def not_bad(s):
         return s
 
 
+    
 def front(s):
     front_list = list(s)
     number_front = len(front_list) / 2
