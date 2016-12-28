@@ -1,15 +1,14 @@
 # Based on materials copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
 
-
+# 1
 def donuts(count):
     if count >= 10:
         print "Number of donuts: many"
     else:
         print "Number of donuts: 4"       
         
-     
-
+# 2     
 def both_ends(s):
     word = list(s)
     new_string = []
@@ -22,8 +21,7 @@ def both_ends(s):
     else:
         return "''"
 
-
-    
+# 3    
 def fix_start(s):
     word = list(s)
     new_word = []
@@ -36,8 +34,7 @@ def fix_start(s):
     new_word.pop(1)
     return ''.join(new_word)
 
-
-
+# 4
 def mix_up(a, b):
     word_a = list(a)
     word_b = list(b)
@@ -49,8 +46,7 @@ def mix_up(a, b):
     list_b.append(word_b[2:])
     print ''.join(list_a[0]) + ''.join(list_a[1]) + " " + ''.join(list_b[0]) + ''.join(list_b[1])
 
-    
-    
+# 5 
 def verbing(s):
     word = list(s)
     if len(word) >= 3:
@@ -63,8 +59,7 @@ def verbing(s):
     else:
         return s
 
-    
-    
+# 6        
 def not_bad(s):
     sentence = s.split()
     not_place = -1
@@ -81,8 +76,7 @@ def not_bad(s):
     else:
         return s
 
-
-    
+# 7    
 def front(s):
     front_list = list(s)
     number_front = len(front_list) / 2
