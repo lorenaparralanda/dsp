@@ -27,12 +27,12 @@ Example of a list with different types of values.
 example_list = [‘Mexico’, ‘USA’, ‘Togo’, 2, [‘UDLAP’ , ‘Fordham’, ‘Metis’]]
 ```
 
-Example of a set (and the creation of the set from a list):
+Example of the creation of a set from a list:
 ```python
 random_list = [1, 1, 2, 2, 2, 2, 2, 3, 3] 
 set(random_list) 
 ```
-Which outputs:
+Which outputs the set:
 ```python
 set([1, 2, 3])
 ```
@@ -45,7 +45,7 @@ Sets find elements faster because they are implemented using hash tables. Theref
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> Through `lambda`, Python supports the creation of anonymous functions. Lambda functions can be used wherever function objects are required. However, they are restricted to a single expression. Example of the lambda expression at use:
+>> Through `lambda`, Python supports the creation of anonymous functions. `lambda` functions can be used wherever function objects are required. However, they are restricted to a single expression. Example of the `lambda` expression at use:
 
 ```python
 return sorted(tuples, key=lambda x: x[-1])
@@ -56,13 +56,7 @@ return sorted(tuples, key=lambda x: x[-1])
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> Similar to what mathematicians do, list comprehensions provide a concise way to create lists. 
-
-For example a mathematician might create a list,
-
-S = {x2 : x in {0...9}}
-
-In Python, through list comprehension, we can create the same list:
+>> Similar to what mathematicians do, list comprehension provides a concise way to create lists. For example, a mathematician might create a list this way: S = {x2 : x in {0...9}}. However, we can use Python/list comprehension to create the same list:
 
 ```python
 S = [x**2 for x in range(10)]
@@ -79,7 +73,7 @@ We can create the same list utilizing `map`:
 map(ord,'some string') 
 ```
 
-Another example of list comprehension: 
+A third example of list comprehension: 
 
 ```python
 special_squares = []
@@ -95,14 +89,14 @@ squares = map(lambda x: x**2, range(10))
 special_squares = filter(lambda x: x > 5 and x < 50, squares)
 ```
 
-When we compare `map` vs list comprehensions or `filter` vs list comprehensions, depending on what one intends to do, speeds may vary. However, some argue that list comprehensions are more direct and clear. 
+When we compare `map` vs list comprehension or `filter` vs list comprehension, depending on what one intends to do, speeds may vary. However, some argue that list comprehension is more direct and clear. 
 
-Further, here is an example of a set comprehension: 
+Finally, here is an example of a set comprehension: 
 
 ```python
 primes = {x for x in range(2, 101) if all(x%y for y in range(2, min(x, 11)))}
 ```
-And finally of a dictionary comprehension:
+And a dictionary comprehension:
 
 ```python
 {i:i for i in range(1, 11)}
