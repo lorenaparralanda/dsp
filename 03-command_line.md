@@ -81,6 +81,5 @@ devuser@system:/etc find . -name "*bash*" | xargs
 ./bash.bashrc ./bash.bash_logout ./defaults/etc/bash.bashrc ./defaults/etc/bash.bash_logout ./defaults/etc/skel/.bashrc ./defaults/etc/skel/.bash_profile ./postinstall/bash.sh.done ./setup/bash.lst.gz ./skel/.bashrc ./skel/.bash_profile
 ```
 
-
  
 
