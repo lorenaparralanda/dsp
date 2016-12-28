@@ -68,5 +68,4 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> I will be using the Sublime editor, as it seems to be a good choice for beginners. Some of the intersting/cool features are the command palette (cmd + shift + p ), multi-edit (cmd + d and cmd + click), goto anything (cmd + p), split layouts and the distraction free mode. To customize, depending on what you want, you can install the subl command line tool and package control. From there you can take advantage of packages like SideBarEnhancements and Anaconda :snake:
-
+>> I will be using the Sublime editor, as it seems to be a good choice for beginners. Some of the intersting/cool features are the command palette (cmd + shift + p ), multi-edit (cmd + d and cmd + click), goto anything (cmd + p), split layouts and the distraction free mode. To customize, depending on what you want, you can install the subl command line tool and package control. From there you can take advantage of packages like SideBarEnhancements and Anaconda.
