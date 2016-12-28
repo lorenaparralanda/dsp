@@ -7,11 +7,13 @@
 import pandas as pd
 import numpy as np
  
-def read_data_csv(data):
+def read_data_csv(data):           
     file = open(data, "r")
     reader = csv.reader(file)
     for row in reader:
         print row
+      
+# Decided to go with pandas
 
 def read_data_pandas(data):
     parsed_data = pd.read_csv(data)
