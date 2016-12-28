@@ -60,7 +60,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> Although I am interested in familirizing myself with Emacs and vim, I will be using nano for its simplicity. 
+>> Although I am interested in familiarizing myself with Emacs and vim, I will be using nano for its simplicity. 
 
 --
 
