@@ -1,3 +1,3 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
->> ![actual_biased](img/actual_vs_biased.png)
+>> ![actual_biased](https://github.com/lorenaparralanda/dsp/blob/master/img/actual_vs_biased.png)
