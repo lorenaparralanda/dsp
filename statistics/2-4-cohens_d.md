@@ -1,10 +1,12 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
+>> # Answer 
+
 >> Cohen's d = 0.028879044654449883
 
-In other words, the difference between the means of pregnancy length for first babies and pregnancy length for other babies is 0.028 standard deviations. Thus, there is no significant difference.
+>> In other words, the difference between the means of pregnancy length for first babies and pregnancy length for other babies is 0.028 standard deviations. Thus, there is no significant difference.
 
-Code 
+# Code 
 
 ```python
 def CohenEffectSize(group1, group2):
