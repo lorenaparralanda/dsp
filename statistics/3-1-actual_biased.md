@@ -1,12 +1,12 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
->> 
-# Answer
-Mean of actual distribution: 1.02420515504
+>> # Answer
 
-Mean of biased distribution: 2.40367910066
+>> Mean of actual distribution: 1.02420515504
 
-Plot of actual and biased distributions:
+>> Mean of biased distribution: 2.40367910066
+
+>> Plot of actual and biased distributions:
 
 ![actual_biased](https://github.com/lorenaparralanda/dsp/blob/master/img/actual_vs_biased.png)
 
