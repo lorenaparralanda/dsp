@@ -2,7 +2,7 @@
 
 >> # Answer
 
-The percentage of the U.S. male population between the range of 5’10” and 6’1” is 34% (0.34209468294595308).
+>> The percentage of the U.S. male population between the range of 5’10” and 6’1” is 34% (0.34209468294595308).
 
 # Code
 
