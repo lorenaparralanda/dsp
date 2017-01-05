@@ -22,22 +22,22 @@ How are Python lists and sets similar and different? Give examples of using both
 
 >> Similar to tuples and lists, sets are also sequences of values. However, sets do not contain duplicates, are unordered, and use hash tables. 
 
-Example of a list with different types of values. 
+>> Example of a list with different types of values. 
 ```python 
 example_list = [‘Mexico’, ‘USA’, ‘Togo’, 2, [‘UDLAP’ , ‘Fordham’, ‘Metis’]]
 ```
 
-Example of the creation of a set from a list:
+>> Example of the creation of a set from a list:
 ```python
 random_list = [1, 1, 2, 2, 2, 2, 2, 3, 3] 
 set(random_list) 
 ```
-Which outputs the set:
+>> Which outputs the set:
 ```python
 set([1, 2, 3])
 ```
 
-Sets find elements faster because they are implemented using hash tables. Therefore, when looking for an element, the program looks if it is located at the position determined by its hash, and, unlike lists, does not have to look through every place on the list.
+>> Sets find elements faster because they are implemented using hash tables. Therefore, when looking for an element, the program looks if it is located at the position determined by its hash, and, unlike lists, does not have to look through every place on the list.
 
 ---
 
@@ -62,18 +62,18 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 S = [x**2 for x in range(10)]
 ```
 
-A second example of list comprehension is: 
+>> A second example of list comprehension is: 
 
 ```python
 [ord(i) for i in 'some string'] 
 ```
 
-We can create the same list utilizing `map`:
+>> We can create the same list utilizing `map`:
 ```python
 map(ord,'some string') 
 ```
 
-A third example of list comprehension: 
+>> A third example of list comprehension: 
 
 ```python
 special_squares = []
@@ -83,20 +83,21 @@ for x in range(10):
         special_squares.append(square)
 ```
 
-And now the same list utilizing `map` and `filter`:
+>> And now the same list utilizing `map` and `filter`:
+
 ```python
 squares = map(lambda x: x**2, range(10))
 special_squares = filter(lambda x: x > 5 and x < 50, squares)
 ```
 
-When we compare `map` vs list comprehension or `filter` vs list comprehension, depending on what one intends to do, speeds may vary. However, some argue that list comprehension is more direct and clear. 
+>> When we compare `map` vs list comprehension or `filter` vs list comprehension, depending on what one intends to do, speeds may vary. However, some argue that list comprehension is more direct and clear. 
 
-Finally, here is an example of a set comprehension: 
+>> Finally, here is an example of a set comprehension: 
 
 ```python
 primes = {x for x in range(2, 101) if all(x%y for y in range(2, min(x, 11)))}
 ```
-And a dictionary comprehension:
+>> And a dictionary comprehension:
 
 ```python
 {i:i for i in range(1, 11)}
