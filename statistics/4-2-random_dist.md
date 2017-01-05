@@ -2,11 +2,11 @@
 
 >> # Answer
 
-The first image below is the plotted PMF of the 1,000 randomly selected numbers. As its name suggests, the Probability Mass Function maps the probility of each randomly selected value occuring. In this case, the plot indicates that all values have the same probability of occuring. 
+>> The first image below is the plotted PMF of the 1,000 randomly selected numbers. As its name suggests, the Probability Mass Function maps the probility of each randomly selected value occuring. In this case, the plot indicates that all values have the same probability of occuring. 
 
 ![PMF](https://github.com/lorenaparralanda/dsp/blob/master/img/RandomPMF.png)
 
-The second image is the plotted CDF of the same 1,000 randomly selected numbers. The Cumulative Distribution Function maps the percentile rank of the randomly selected values. Therefore we see an ascending line. As the value of a the number rises, so does its rank. 
+>> The second image is the plotted CDF of the same 1,000 randomly selected numbers. The Cumulative Distribution Function maps the percentile rank of the randomly selected values. Therefore we see an ascending line. As the value of a the number rises, so does its rank. 
 
 ![CDF](https://github.com/lorenaparralanda/dsp/blob/master/img/RandomCDF.png)
 
